@@ -1,11 +1,11 @@
 #نمرات درسی یک محصل 
-# از float برای اعداد اعشاری احتمالی استفاده میکنیم
-nomre1 = float(input("14"))
-nomre2 = float(input("16.5"))
-nomre3 = float(input("18"))
-nomre4 = float(input("13.75"))
-nomre5 = float(input("19"))
-nomre6 = float(input("10"))
+# از int برای اعداد استفاده میکنیم
+nomre1 = int(input("14"))
+nomre2 = int(input("16.5"))
+nomre3 = int(input("18"))
+nomre4 = int(input("13.75"))
+nomre5 = int(input("19"))
+nomre6 = int(input("10"))
 
 #با استفاده از average میانگین دروس را میگیریم
 
@@ -16,9 +16,9 @@ print("معدل شما:", average)
 
 #شروط 
 
-if average >=18:
+if 18 <= average <= 20:
     print("شما برنده پلی استیشن شدید")
-elif average >=16:
+elif 16 <= average <= 18:
     print("شما برنده دوچرخه شدید")
-else:
+else:16 > average
     print("شرمنده جایزه ای نداریم")        
