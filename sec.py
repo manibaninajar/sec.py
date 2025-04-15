@@ -1,9 +1,9 @@
 #نمرات درسی یک محصل 
 # از int برای اعداد استفاده میکنیم
 nomre1 = int(input("14"))
-nomre2 = int(input("16.5"))
+nomre2 = int(input("16"))
 nomre3 = int(input("18"))
-nomre4 = int(input("13.75"))
+nomre4 = int(input("13"))
 nomre5 = int(input("19"))
 nomre6 = int(input("10"))
 
